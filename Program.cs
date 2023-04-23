@@ -12,15 +12,7 @@ namespace CA3
 		public static int unknown = 0, infants = 0, children = 0, teenage = 0, youngAdult = 0, adult = 0, olderAdult = 0;
 
 	}
-
-
-
-
-
-
-
-
-	internal class Program
+    internal class Program
 	{
 		static void Main(string[] args)
 
@@ -93,6 +85,7 @@ namespace CA3
 
 						for (int i = 1; i < values.Length - 2; i += 2)
 						{
+							
 							Console.WriteLine("First Name " + values[i] + " : Last Name " + values[i - 1]);
 
 							counter++;
